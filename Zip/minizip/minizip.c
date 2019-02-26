@@ -19,7 +19,7 @@
 #include <string.h>
 #include <time.h>
 #include <zlib.h>
-#include "zip.h"
+#include "minizip.h"
 
 #ifdef STDC
 #  include <stddef.h>
