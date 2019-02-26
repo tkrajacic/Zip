@@ -5,7 +5,8 @@ import PackageDescription
 let package = Package(
     name: "Zip",
     products: [
-        .library(name: "Zip", targets: ["Zip"])
+        .library(name: "Zip", targets: ["Zip"]),
+        .library(name: "Minizip", targets: ["Minizip"])
     ],
     targets: [
         .systemLibrary(
