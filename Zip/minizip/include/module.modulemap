@@ -1,5 +1,0 @@
-module Minizip [system][extern_c] {
-    header "Minizip.h"
-    link "z"
-    export *
-}
